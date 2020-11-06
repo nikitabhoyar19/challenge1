@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Halyard Text;
+}
+.contactus-btn {
+  color: #ffffff;
+  background: #3751ff;
+  border-radius: 100px;
+}
+
+.nav-item {
+  padding-left: 30px;
+}
+
+.form-inline {
+  padding-left: 180px;
+}
+
+.nav-link {
+  font-size: 16px;
+  font-weight: normal;
+  color: #1e266d;
+}
+
+.heading {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 105%;
+  text-align: center;
+  color: #1e266d;
+  font-style: normal;
+}
+
+.basic {
+  text-align: center;
+  font-style: normal;
+  color: #455880;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.home {
+  background: linear-gradient(
+    180deg,
+    rgba(242, 249, 255, 0.12) 0%,
+    #f2f9ff 100%
+  );
+  height: 878px;
+}
+
+.logos .col {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.logos img {
+  width: 70px;
+}
+
+.group {
+  padding-left: 100px;
+  padding-right: 90px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  color: #1e266d;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 500;
+  color: #455880;
+}
+
+.portfolio {
+  background: #fff9ea;
+}
+
+.card {
+  align-items: center;
+}
+
+.testimonals .col-4 {
+  padding-top: 20px;
+}
+
+.cta .ctnn {
+  display: flex;
+  flex-direction: column;
+  padding-left: 250px;
+}
+
+.whitebtn {
+  background-color: rgba(255, 255, 255, 1);
+  color: #455880;
+  width: 120px;
+  font-size: 12px;
+  font-weight: normal;
+  border-radius: 20px;
+}
+
+li {
+  list-style-type: none;
+}
